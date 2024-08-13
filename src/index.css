@@ -1,0 +1,14 @@
+@import 'bootstrap';
+
+h1{
+    color: orangered;
+}
+
+h3{
+    color: darkblue;
+}
+
+::placeholder{
+    font-size: .7em;
+    text-align: center;
+}
