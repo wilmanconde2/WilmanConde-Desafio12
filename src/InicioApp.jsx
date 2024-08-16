@@ -17,9 +17,6 @@ const InicioApp = () => {
 
     setUsers(usuarioActualizado);
     setEditarUsuario(null);
-
-// TODO video 45 time 16 min
-
   };
 
   const agregarUsuario = (usuario) => {
@@ -35,9 +32,7 @@ const InicioApp = () => {
   return (
     <div className="container">
       <h1 className="mt-3 text-center">Desafió 12</h1>
-      <h3 className="text-center m-3 mb-5">
-        Formulario usuarios con REACT
-      </h3>
+      <h3 className="text-center m-3 mb-5">Formulario usuarios con REACT</h3>
       <Formulario
         agregarUsuario={agregarUsuario}
         editarUsuario={editarUsuario}
